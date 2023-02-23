@@ -1,0 +1,30 @@
+## Ubuntu 22.04
+
+deb http://us.archive.ubuntu.com/ubuntu/ jammy main restricted
+deb http://us.archive.ubuntu.com/ubuntu/ jammy-updates main restricted
+deb http://us.archive.ubuntu.com/ubuntu/ jammy universe
+deb http://us.archive.ubuntu.com/ubuntu/ jammy-updates universe
+deb http://us.archive.ubuntu.com/ubuntu/ jammy multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ jammy-updates multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu jammy-security main restricted
+deb http://security.ubuntu.com/ubuntu jammy-security universe
+deb http://security.ubuntu.com/ubuntu jammy-security multiverse
+
+
+## ubuntu 22.04 ARM
+
+deb http://ports.ubuntu.com/ubuntu-ports jammy main restricted universe multiverse
+deb-src http://ports.ubuntu.com/ubuntu-ports jammy main restricted universe multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports jammy-updates main restricted universe multiverse
+deb-src http://ports.ubuntu.com/ubuntu-ports jammy-updates main restricted universe multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports jammy-backports main restricted universe multiverse
+deb-src http://ports.ubuntu.com/ubuntu-ports jammy-backports main restricted universe multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports jammy-security main restricted universe multiverse
+deb-src http://ports.ubuntu.com/ubuntu-ports jammy-security main restricted universe multiverse
+
+deb http://archive.canonical.com/ubuntu jammy partner
+deb-src http://archive.canonical.com/ubuntu jammy partner
